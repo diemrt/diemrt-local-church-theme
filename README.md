@@ -2,7 +2,7 @@
 
 ## Struttura
 
-Questa struttura presenta una serie di cartelle e file fondamentali per il corretto funzionamento del tema. Tutti i file non elencati sono da considerare opzionali, ma comunque utili al fine di rispettare dei buoni principi di programmazione. 
+Questa struttura presenta una serie di cartelle e file fondamentali per il corretto funzionamento del tema. Tutti i file non elencati sono da considerare opzionali, ma comunque utili al fine di rispettare dei buoni principi di programmazione. La struttura segue le indicazioni della [guida ufficiale](https://developer.wordpress.org/themes/basics/template-hierarchy/) di Wordpress.
 
 ```
 .
