@@ -1,0 +1,1 @@
+# diemrt-local-church-template
