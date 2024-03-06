@@ -26,44 +26,22 @@ Questa struttura presenta una serie di cartelle e file fondamentali per il corre
 
 ```
 .
+├── parts/
+│   ├── footer.html
+│   └── header.html
+├── patterns/
+│   └── example.php
 ├── assets/
-│   ├── css/
-│   ├── fonts/
-│   ├── images/
-│   └── js/
-├── classes/
-├── inc/
 ├── templates/
-├── template-parts/
-├── index.php
-├── style.css
-└── ...
+│   ├── 404.html
+│   ├── archive.html
+│   ├── index.html (required)
+│   └── singular.html
+├── README.md
+├── functions.php
+├── screenshot.png
+├── style.css (required)
+└── theme.json
 ```
 
-### `assets/`
-
-Viene usata per salvare tutti i contenuti principali del sito, tra cui immagini, file css e altro.
-
-### `classes/`
-
-Viene usato per creare ogni classe php per gestire le logiche custom all'interno di wordpress.
-
-### `inc/`
-
-Sta per 'include', serve per inserire tutti i file da includere come dipendenze esterne.
-
-### `template-parts/`
-
-Permette di suddividere il tema in più parti logiche, in modo da non avere tutto in un singolo file. 
-
-### `templates/`
-
-Contiene tutti i file usati per gestire il tema. 
-
-### `index.php`
-
-File non opzionale, viene usato da wordpress come punto di ingresso per elaborare correttamente il tema.
-
-### `style.css`
-
-File non opzionale, viene usato da wordpress per gestire lo stile del tema e per raccogliere alcuni metadati del tema stesso.
+Fare riferimento alla [documentazione ufficiale](https://developer.wordpress.org/themes/core-concepts/theme-structure/) per ulteriori chiarimenti sulla struttura.
