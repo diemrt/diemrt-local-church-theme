@@ -10,6 +10,16 @@ Per configurare il tema, bisognerà importare l'intera cartella di questo proget
 
 Ulteriori indicazioni e chiarimenti possono essere trovati in questa [guida ufficiale](https://hub.docker.com/_/wordpress).
 
+## Troubleshooting
+
+Nel caso di errori inaspettati da wordpress, è possibile predisporre la modalità di debub iserendo nel file `wp-config.php` il seguente codice:
+
+```
+define( 'WP_DEBUG', true);
+define( 'WP_DEBUG_LOG', true );
+```
+
+
 ## Struttura
 
 Questa struttura presenta una serie di cartelle e file fondamentali per il corretto funzionamento del tema. Tutti i file non elencati sono da considerare opzionali, ma comunque utili al fine di rispettare dei buoni principi di programmazione. La struttura segue le indicazioni della [guida ufficiale](https://developer.wordpress.org/themes/basics/template-hierarchy/) di Wordpress.
