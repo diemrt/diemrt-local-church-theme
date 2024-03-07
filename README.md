@@ -1,12 +1,22 @@
 # Local Church - Wordpress custom theme
 
-## Installazione
+## Installazione e configurazione
 
 Scaricare il codice sorgente tramite il comando `git clone URL_GITHUB`. 
 
 Una volta scaricato, è possibile testare il tema usando un'istanza locale di wordpress. Il metodo consigliato, è quello di installare Docker e rendelo attivo e funzionante. Una volta fatto, aprire un terminale nella root del progetto ed eseguire il comando `docker compose -f docker-compose.yml up -d`. Una volta completato, il server sarà ragiungibile all'indirizzo: http://localhost:8080, basterà segui i passaggi del sito per configurare completamente wordpress. 
 
-Per configurare il tema, bisognerà importare l'intera cartella di questo progetto sotto la cartella del server `/var/www/html/wp-content/themes/`. 
+Per configurare il tema, bisognerà importare l'intera cartella di questo progetto sotto la cartella del server `/var/www/html/wp-content/themes/`.
+
+> Laddove non fosse possibile accedere alla cartella da remoto, è possibile creare uno zip del tema e, una volta configurato wordpress, caricarlo nell'apposita sezione **Aspetto>Aggiungi nuovo tema>Carica tema**
+
+### Altre configurazioni del tema custom
+
+Ricordarsi di configurare e verificare i seguenti punti
+
+- Controllare che titolo e motto siano configurati nella sezione **Impostazioni>Generali**
+- Verificare di aver inserito tutte le pagine minime al funzionamento, specialmente la pagina Home.
+- Verificare che la tua homepage sia settata su **Una pagina statica>Homepage>Home** nella sezione **Impostazioni>Lettura**
 
 Ulteriori indicazioni e chiarimenti possono essere trovati in questa [guida ufficiale](https://hub.docker.com/_/wordpress).
 

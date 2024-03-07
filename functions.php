@@ -3,6 +3,8 @@
 add_action('wp_enqueue_scripts', 'localchurch_enqueue_styels');
 add_action('wp_enqueue_scripts', 'localchurch_enqueue_scripts');
 
+add_action('init','localchurch_register_menus');
+
 function localchurch_enqueue_styels()
 {
     wp_enqueue_style(
@@ -29,5 +31,15 @@ function localchurch_enqueue_scripts()
         array(),
         wp_get_theme()->get('Version'),
         true
+    );
+}
+
+function localchurch_register_menus()
+{
+    register_nav_menus(
+        array(
+            'header-menu' => __('Header Menu'),
+            'footer-menu' => __('Footer Menu')
+        )
     );
 }
