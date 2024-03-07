@@ -22,26 +22,4 @@ define( 'WP_DEBUG_LOG', true );
 
 ## Struttura
 
-Questa struttura presenta una serie di cartelle e file fondamentali per il corretto funzionamento del tema. Tutti i file non elencati sono da considerare opzionali, ma comunque utili al fine di rispettare dei buoni principi di programmazione. La struttura segue le indicazioni della [guida ufficiale](https://developer.wordpress.org/themes/basics/template-hierarchy/) di Wordpress.
-
-```
-.
-├── parts/
-│   ├── footer.html
-│   └── header.html
-├── patterns/
-│   └── example.php
-├── assets/
-├── templates/
-│   ├── 404.html
-│   ├── archive.html
-│   ├── index.html (required)
-│   └── singular.html
-├── README.md
-├── functions.php
-├── screenshot.png
-├── style.css (required)
-└── theme.json
-```
-
-Fare riferimento alla [documentazione ufficiale](https://developer.wordpress.org/themes/core-concepts/theme-structure/) per ulteriori chiarimenti sulla struttura.
+Questa struttura presenta una serie di cartelle e file fondamentali per il corretto funzionamento del tema. La struttura segue le indicazioni della guida ufficiale di Wordpress, in riferimento solo alla categoria [Classic Theme](https://developer.wordpress.org/themes/classic-themes/your-first-theme/#classic-theme), fare riferimento alla documentazione.
