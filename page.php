@@ -11,10 +11,16 @@ get_header();
                     <div data-w-id="0cdfc0c9-e628-8baf-6bea-330630344382" class="menu-icon-line"></div>
                     <div data-w-id="0cdfc0c9-e628-8baf-6bea-330630344381" class="menu-icon-line second"></div>
                 </div>
-                <nav class="menu-content hidden" style="display: none; opacity: 0;"><a href="/" class="menu-link">Home</a><a href="/contact" class="menu-link">Contact Us</a>
-                    <div class="menu-divider"></div><a href="/community" class="menu-link">Our Community</a><a href="/ministries" aria-current="page" class="menu-link w--current">Our Ministries</a><a href="/team" class="menu-link">Our Team</a><a href="/blog" class="menu-link">Our Blog</a>
-                    <div class="menu-divider"></div><a href="/we-believe" class="menu-link">We Believe</a>
-                </nav>
+                <?php
+                wp_nav_menu(
+                    array(
+                        'menu' => 'header-menu',
+                        'container' => '',
+                        'theme_location' => 'header-menu',
+                        'items_wrap' => '<nav id="archive-menu" class="menu-content hidden" style="display: none; opacity: 0;">%3$s</nav>'
+                    )
+                );
+                ?>
             </div>
         </div>
         <?php
