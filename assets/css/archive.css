@@ -74,6 +74,11 @@ mark {
     background: #ff0;
 }
 
+li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
 small {
     font-size: 80%;
 }
@@ -3833,6 +3838,27 @@ blockquote {
 
 .menu-content.hidden {
     display: none;
+}
+
+nav#archive-menu li a {
+    border-radius: 50px;
+    margin-bottom: 3px;
+    margin-left: -12px;
+    margin-right: 8px;
+    padding: 2px 12px;
+    text-decoration: none;
+    transition: color .1s, background-color .2s;
+}
+
+nav#archive-menu li a:hover {
+    background-color: var(--steel-blue);
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .nav#archive-menu li a {
+        margin-bottom: 6px;
+    }
 }
 
 .menu-link {

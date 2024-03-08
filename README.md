@@ -17,6 +17,8 @@ Ricordarsi di configurare e verificare i seguenti punti
 - Controllare che titolo e motto siano configurati nella sezione **Impostazioni>Generali**
 - Verificare di aver inserito tutte le pagine minime al funzionamento, specialmente la pagina Home.
 - Verificare che la tua homepage sia settata su **Una pagina statica>Homepage>Home** nella sezione **Impostazioni>Lettura**
+- Nella sezione **Aspetto>Menu** configurare i seguenti menu:
+  - creare un menù "main", controllando che ci sia il check sul flag **Header Menu**, e inserisci tutte le pagine da elencare nell'ordine corretto.
 
 Ulteriori indicazioni e chiarimenti possono essere trovati in questa [guida ufficiale](https://hub.docker.com/_/wordpress).
 
