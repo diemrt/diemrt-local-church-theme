@@ -5,7 +5,7 @@ get_header();
     <div class="container in-header">
         <div id="w-node-e27a7043-72b4-aa74-1356-4eaa513fd522-513ac509" class="header-content">
             <div class="logo-wrap in-header"><a href="/" aria-current="page" class="logo w-inline-block w--current"><img src="https://assets-global.website-files.com/5ecb81f357d94bdba23ac508/5ed4f714a0977f63ca502432_sunday_logo.svg" alt="" class="image">
-                    <div class="text-block">Local Church</div>
+                    <div class="text-block">Chiesa Cristiana Evangelica - ADI Bergamo</div>
                 </a>
                 <div class="menu">
                     <div data-w-id="0cdfc0c9-e628-8baf-6bea-330630344380" class="menu-icon">
@@ -27,40 +27,48 @@ get_header();
             </div>
             <div class="hero-text-wrap">
                 <div class="overflow-hidden">
-                    <div data-w-id="e27a7043-72b4-aa74-1356-4eaa513fd527" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="hero-text">Love God</div>
+                    <div data-w-id="e27a7043-72b4-aa74-1356-4eaa513fd527" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="hero-text">Amare Dio e</div>
                 </div>
                 <div class="overflow-hidden">
-                    <div data-w-id="e27a7043-72b4-aa74-1356-4eaa513fd52b" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="hero-text">love to serve.</div>
+                    <div data-w-id="e27a7043-72b4-aa74-1356-4eaa513fd52b" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="hero-text">amare il prossimo</div>
                 </div>
             </div>
         </div>
-        <div id="w-node-e27a7043-72b4-aa74-1356-4eaa513fd52d-513ac509" data-w-id="e27a7043-72b4-aa74-1356-4eaa513fd52d" class="header-navigation" style="opacity: 1;"><a href="#Welcome" id="w-node-e27a7043-72b4-aa74-1356-4eaa513fd52e-513ac509" data-w-id="e27a7043-72b4-aa74-1356-4eaa513fd52e" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="hero-navigation-link">Welcome</a><a href="#Community" id="w-node-e27a7043-72b4-aa74-1356-4eaa513fd530-513ac509" data-w-id="e27a7043-72b4-aa74-1356-4eaa513fd530" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="hero-navigation-link">Community</a><a href="#Our-Mission" id="w-node-e27a7043-72b4-aa74-1356-4eaa513fd532-513ac509" data-w-id="e27a7043-72b4-aa74-1356-4eaa513fd532" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="hero-navigation-link">Our Mission</a><a href="#Ministry" id="w-node-e27a7043-72b4-aa74-1356-4eaa513fd534-513ac509" data-w-id="e27a7043-72b4-aa74-1356-4eaa513fd534" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="hero-navigation-link w--current">Ministry</a><a href="#Events" id="w-node-e27a7043-72b4-aa74-1356-4eaa513fd536-513ac509" data-w-id="e27a7043-72b4-aa74-1356-4eaa513fd536" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="hero-navigation-link">Events</a><a href="#Location" id="w-node-e27a7043-72b4-aa74-1356-4eaa513fd538-513ac509" data-w-id="e27a7043-72b4-aa74-1356-4eaa513fd538" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="hero-navigation-link">Location</a></div>
+        <div id="w-node-e27a7043-72b4-aa74-1356-4eaa513fd52d-513ac509" data-w-id="e27a7043-72b4-aa74-1356-4eaa513fd52d" class="header-navigation" style="opacity: 1;"><a href="#Welcome" id="w-node-e27a7043-72b4-aa74-1356-4eaa513fd52e-513ac509" data-w-id="e27a7043-72b4-aa74-1356-4eaa513fd52e" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="hero-navigation-link">Incontri</a><a href="#Community" id="w-node-e27a7043-72b4-aa74-1356-4eaa513fd530-513ac509" data-w-id="e27a7043-72b4-aa74-1356-4eaa513fd530" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="hero-navigation-link">Podcast</a><a href="#Our-Mission" id="w-node-e27a7043-72b4-aa74-1356-4eaa513fd532-513ac509" data-w-id="e27a7043-72b4-aa74-1356-4eaa513fd532" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="hero-navigation-link">Credo</a><a href="#Ministry" id="w-node-e27a7043-72b4-aa74-1356-4eaa513fd534-513ac509" data-w-id="e27a7043-72b4-aa74-1356-4eaa513fd534" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="hero-navigation-link w--current">Ministry</a><a href="#Events" id="w-node-e27a7043-72b4-aa74-1356-4eaa513fd536-513ac509" data-w-id="e27a7043-72b4-aa74-1356-4eaa513fd536" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="hero-navigation-link">Events</a><a href="#Location" id="w-node-e27a7043-72b4-aa74-1356-4eaa513fd538-513ac509" data-w-id="e27a7043-72b4-aa74-1356-4eaa513fd538" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="hero-navigation-link">Location</a></div>
     </div>
 </header>
 <section id="Welcome" class="welcome-section">
     <div class="container in-welcome">
-        <h2 id="w-node-b5688fd9-6c0c-3f59-a721-5bd34ab09cd5-513ac509" class="welcome-heading">Welcome to Sunday
-            Church.</h2>
-        <h4 class="welcome-subhead">«We exists to lead people to real transformation as they love God and
-            change&nbsp;their world.»</h4>
+        <h2 id="w-node-b5688fd9-6c0c-3f59-a721-5bd34ab09cd5-513ac509" class="welcome-heading">Evanghélion: "La Buona Notizia"</h2>
+        <h4 class="welcome-subhead">«Ecco, Io sto per fare una cosa nuova; essa sta per germogliare, non la riconoscete?»</h4>
         <div class="pastor-name-wrap">
-            <h6 class="pastor-name">David w. Rockmans</h6>
-            <h6 class="pastor-status">senior pastor</h6>
+            <h6 class="pastor-name">Isaia</h6>
+            <h6 class="pastor-status">43:19</h6>
         </div>
         <div class="meeting-times-wrap"><img src="https://assets-global.website-files.com/5ecb81f357d94bdba23ac508/5ed640a9bb00f5552a99eda9_watch.svg" alt="" class="meeting-times-icon">
-            <h6>meeting Times:</h6>
+            <h6>incontri:</h6>
             <div class="meeting-times-row">
-                <h5>Saturday</h5>
+                <h5>Culto domenicale</h5>
                 <div class="service-time-starts">
-                    <h5 class="no-margin">at 7</h5>
-                    <div class="service-times-am-pm">pm</div>
+                    <h5 class="no-margin">Domenica 10:30</h5>
                 </div>
             </div>
             <div class="meeting-times-row">
-                <h5>Sunday</h5>
+                <h5>Culto di Preghiera</h5>
                 <div class="service-time-starts">
-                    <h5 class="no-margin">at 10</h5>
-                    <div class="service-times-am-pm">am</div>
+                    <h5 class="no-margin">Venerdì 20:30</h5>
+                </div>
+            </div>
+            <div class="meeting-times-row">
+                <h5>Incontri Giovani</h5>
+                <div class="service-time-starts">
+                    <h5 class="no-margin">Sabato 18:30</h5>
+                </div>
+            </div>
+            <div class="meeting-times-row">
+                <h5>Incontri nelle famiglie</h5>
+                <div class="service-time-starts">
+                    <h5 class="no-margin">In settimana</h5>
                 </div>
             </div>
         </div>
@@ -79,31 +87,29 @@ get_header();
             ?>
         </div>
         <div id="w-node-f859c007-77e0-74a4-6b0b-e25d1065e649-513ac509" class="community-content">
-            <h3 data-w-id="f859c007-77e0-74a4-6b0b-e25d1065e64a" class="community-heading">God designed you to be in
-                community.</h3><a data-w-id="f859c007-77e0-74a4-6b0b-e25d1065e64c" href="/community" class="button-outlined white">Learn More</a>
+            <h3 data-w-id="f859c007-77e0-74a4-6b0b-e25d1065e64a" class="community-heading">Puoi rivedere la predicazione settimanale del Vangelo qui.</h3>
         </div>
     </div>
 </section>
 <section id="Our-Mission" class="mission-section">
     <div class="container in-mission">
         <div class="mission-content">
-            <h5 class="mission-heading">Our mission.</h5>
-            <h3 class="mission-description">To glorify God by serving the people and to serve the community.</h3>
-            <h4 class="mission-about">We want every part of&nbsp;our ministry to be Christ centered and we would
-                love to meet you!</h4><a href="/blog" class="button-outlined black">Read Blog</a>
+            <h5 class="mission-heading">Credo</h5>
+            <h3 class="mission-description">Gesù è il nostro fondamento.</h3>
+            <h4 class="mission-about">La figura di Gesù è centrale nei nostri discorsi perché rappresenta il fondamento della nostra comunità. Il nostro desiderio è condividere con te la sua storia e i suoi insegnamenti. Ti esortiamo a esplorare, attraverso la lettura e l’ascolto, a riflettere profondamente e a prendere una decisione personale. Il nostro obiettivo non è semplicemente portarti nella nostra chiesa, ma guidarti alla scoperta di Gesù.</h4><a href="/blog" class="button-outlined black">Approfondisci</a>
         </div>
         <div class="mission-services">
             <div class="mission-item love">
                 <div data-w-id="393f3a53-9e11-fade-c8e9-150c04961e50" class="animation-image-wrap" style=""><img src="https://assets-global.website-files.com/5ecb81f357d94bdba23ac508/61d3013ee47e3d6b9e687426_priscilla-du-preez-MIf25phxNlE-unsplash%202.jpg" alt="" class="animation-image" style=""></div>
-                <h2 class="mission-title love">Love.</h2>
+                <h2 class="mission-title love">Amare.</h2>
             </div>
             <div class="mission-item care">
                 <div data-w-id="393f3a53-9e11-fade-c8e9-150c04961e50" class="animation-image-wrap" style=""><img src="https://assets-global.website-files.com/5ecb81f357d94bdba23ac508/5ecb8b5a4ec47b4903639b02_service%202.jpg" alt="" class="animation-image" style=""></div>
-                <h2 class="mission-title care">Care.</h2>
+                <h2 class="mission-title care">Predicare.</h2>
             </div>
             <div class="mission-item serve">
                 <div data-w-id="393f3a53-9e11-fade-c8e9-150c04961e50" class="animation-image-wrap" style=""><img src="https://assets-global.website-files.com/5ecb81f357d94bdba23ac508/61d3014e79de891020b194d9_junior-reis-yTIH0J7ohNM-unsplash%202.jpg" alt="" class="animation-image" style=""></div>
-                <h2 class="mission-title serve">Serve.</h2>
+                <h2 class="mission-title serve">Servire.</h2>
             </div>
         </div>
     </div>
