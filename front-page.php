@@ -13,15 +13,15 @@ get_header();
                         <div data-w-id="0cdfc0c9-e628-8baf-6bea-330630344381" class="menu-icon-line second" style=""></div>
                     </div>
 
-                    <?php 
-                        wp_nav_menu(
-                            array(
-                                'menu' => 'header-menu',
-                                'container' => '',
-                                'theme_location' => 'header-menu',
-                                'items_wrap' => '<nav id="archive-menu" class="menu-content hidden" style="display: none; opacity: 0;">%3$s</nav>'
-                            )
-                        );
+                    <?php
+                    wp_nav_menu(
+                        array(
+                            'menu' => 'header-menu',
+                            'container' => '',
+                            'theme_location' => 'header-menu',
+                            'items_wrap' => '<nav id="archive-menu" class="menu-content hidden" style="display: none; opacity: 0;">%3$s</nav>'
+                        )
+                    );
                     ?>
                 </div>
             </div>
@@ -69,22 +69,14 @@ get_header();
 <section id="Community" class="community-section">
     <div data-w-id="f859c007-77e0-74a4-6b0b-e25d1065e637" class="container in-community">
         <div id="w-node-f859c007-77e0-74a4-6b0b-e25d1065e638-513ac509" class="chat-wrapper">
-            <div class="chat-item _1"><img src="https://assets-global.website-files.com/5dfb47ebbf964f437045fe06/5e2edefe1a6fa5677aff5e2c_Screenshot_90.jpg" data-w-id="f859c007-77e0-74a4-6b0b-e25d1065e63a" alt="" class="chat-avatar" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                <div data-w-id="f859c007-77e0-74a4-6b0b-e25d1065e63b" class="chat-balloon" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                    Ann will you be in evening service today? ⛪</div>
-            </div>
-            <div class="chat-item _2">
-                <div data-w-id="f859c007-77e0-74a4-6b0b-e25d1065e63e" class="chat-balloon right" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                    Yeah! I don't want to miss worship 😉</div><img src="https://assets-global.website-files.com/5dfb47ebbf964f437045fe06/5e2edf94517d649ede23fb71_Screenshot_93.jpg" data-w-id="f859c007-77e0-74a4-6b0b-e25d1065e640" alt="" class="chat-avatar right" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-            </div>
-            <div class="chat-item _3"><img src="https://assets-global.website-files.com/5dfb47ebbf964f437045fe06/5e2edefe1a6fa5677aff5e2c_Screenshot_90.jpg" data-w-id="f859c007-77e0-74a4-6b0b-e25d1065e642" alt="" class="chat-avatar" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                <div data-w-id="f859c007-77e0-74a4-6b0b-e25d1065e643" class="chat-balloon" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                    Me too. Can I sit next to you? 🙏</div>
-            </div>
-            <div class="chat-item _4">
-                <div data-w-id="f859c007-77e0-74a4-6b0b-e25d1065e646" class="chat-balloon right" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                    Sure, of course 😘</div><img src="https://assets-global.website-files.com/5dfb47ebbf964f437045fe06/5e2edf94517d649ede23fb71_Screenshot_93.jpg" data-w-id="f859c007-77e0-74a4-6b0b-e25d1065e648" alt="" class="chat-avatar right" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-            </div>
+            <?php
+            if (have_posts()) {
+                while (have_posts()) {
+                    the_post();
+                    the_content();
+                }
+            }
+            ?>
         </div>
         <div id="w-node-f859c007-77e0-74a4-6b0b-e25d1065e649-513ac509" class="community-content">
             <h3 data-w-id="f859c007-77e0-74a4-6b0b-e25d1065e64a" class="community-heading">God designed you to be in
