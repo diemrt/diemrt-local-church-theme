@@ -31,7 +31,6 @@ define( 'WP_DEBUG', true);
 define( 'WP_DEBUG_LOG', true );
 ```
 
-
 ## Struttura
 
-Questa struttura presenta una serie di cartelle e file fondamentali per il corretto funzionamento del tema. La struttura segue le indicazioni della guida ufficiale di Wordpress, in riferimento solo alla categoria [Classic Theme](https://developer.wordpress.org/themes/classic-themes/your-first-theme/#classic-theme), fare riferimento alla documentazione.
+Questa struttura presenta una serie di cartelle e file fondamentali per il corretto funzionamento del tema. La struttura segue le indicazioni della [guida ufficiale](https://developer.wordpress.org/themes/).
