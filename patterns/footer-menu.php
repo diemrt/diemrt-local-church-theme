@@ -13,3 +13,4 @@ wp_nav_menu(
         'items_wrap' => '<div id="archive-footer-menu" class="footer-column"><h5>Menu</h5>%3$s</div>'
     )
 );
+?>
