@@ -4843,7 +4843,7 @@ nav#archive-menu li a:hover {
     }
 }
 
-div#archive-footer-menu li a{
+div#archive-footer-menu li a {
     color: #111;
     border-radius: 50px;
     margin-bottom: 4px;
@@ -4857,4 +4857,12 @@ div#archive-footer-menu li a{
 div#archive-footer-menu li a:hover {
     color: var(--steel-blue);
     background-color: #ededed;
+}
+
+.church-event-container {
+    width: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
