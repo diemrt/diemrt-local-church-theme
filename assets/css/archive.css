@@ -4866,3 +4866,9 @@ div#archive-footer-menu li a:hover {
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 767px) {
+    #Youtube {
+        width: 100%;
+    }
+}
