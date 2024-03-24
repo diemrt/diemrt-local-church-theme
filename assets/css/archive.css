@@ -4872,3 +4872,21 @@ div#archive-footer-menu li a:hover {
         width: 100%;
     }
 }
+
+iframe.map {
+    width: 600px;
+    height: 800px;
+}
+
+@media screen and (max-width: 767px) {
+    iframe.map {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    div#Location div.location-item:first-child {
+        margin: 0;
+    }
+}
