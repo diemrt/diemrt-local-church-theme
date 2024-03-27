@@ -19,6 +19,7 @@ Ricordarsi di configurare e verificare i seguenti punti
 - Verificare che la tua homepage sia settata su "Home" nella sezione **Impostazioni>Lettura>Una pagina statica>Homepage**
 - Nella sezione **Aspetto>Menu** configurare i seguenti menu:
   - creare un menù "main", controllando che ci sia il check sul flag **Header Menu** e sul flag **Footer Menu**, e inserisci tutte le pagine da elencare nell'ordine corretto.
+- Ricordati di abilitare i Campi Personalizzati per i singoli articoli, nell'editor di wordpress clicca sul simbolo dei tre puntini, dopodiché vai in **Pannelli>Aggiuntivi>Campi personalizzati**, attiva la spunta e clicca sul pulsante mostra
 
 Ulteriori indicazioni e chiarimenti possono essere trovati in questa [guida ufficiale](https://hub.docker.com/_/wordpress).
 
