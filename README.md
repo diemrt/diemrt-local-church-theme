@@ -38,7 +38,7 @@ Questa struttura presenta una serie di cartelle e file fondamentali per il corre
 
 ## Backup
 
-## Importazione di un backup esistente
+## Limitazioni sul caricamento dei file
 
 Prima di procedere con il backup, assicurarsi che il servizio di hosting abbia abilitato la possibilità di caricare file più grandi di 2MB. Nel caso in cui si abbia accesso ai file di configurazione di wordpress, modificare quanto segue
 
@@ -60,3 +60,7 @@ Prima di procedere con il backup, assicurarsi che il servizio di hosting abbia a
     @ini_set( 'max_execution_time', '300' );
     @ini_set( 'max_input_time', '300' );
    ```
+
+## Icone
+
+Per scaricare le icone usate nel sito fare riferimento a questo [link](https://www.flaticon.com/icon-fonts-most-downloaded?weight=thin&type=uicon)
