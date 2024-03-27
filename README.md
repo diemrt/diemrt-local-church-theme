@@ -35,3 +35,28 @@ define( 'WP_DEBUG_LOG', true );
 ## Struttura
 
 Questa struttura presenta una serie di cartelle e file fondamentali per il corretto funzionamento del tema. La struttura segue le indicazioni della [guida ufficiale](https://developer.wordpress.org/themes/).
+
+## Backup
+
+## Importazione di un backup esistente
+
+Prima di procedere con il backup, assicurarsi che il servizio di hosting abbia abilitato la possibilità di caricare file più grandi di 2MB. Nel caso in cui si abbia accesso ai file di configurazione di wordpress, modificare quanto segue
+
+1. Modifica il file **.htaccess**, aggiunti quanto segue in fondo al file:
+   
+   ```
+    php_value upload_max_filesize 128M
+    php_value post_max_size 128M
+    php_value memory_limit 256M
+    php_value max_execution_time 300
+    php_value max_input_time 300
+   ```
+2. Modifica il file **wp-config.php**, aggiunti quanto segue in fondo al file:
+   
+   ```
+    @ini_set( 'upload_max_filesize' , '128M' );
+    @ini_set( 'post_max_size', '128M');
+    @ini_set( 'memory_limit', '256M' );
+    @ini_set( 'max_execution_time', '300' );
+    @ini_set( 'max_input_time', '300' );
+   ```
