@@ -67,3 +67,7 @@ Prima di procedere con il backup, assicurarsi che il servizio di hosting abbia a
 ## Icone
 
 Per scaricare le icone usate nel sito fare riferimento a questo [link](https://www.flaticon.com/icon-fonts-most-downloaded?weight=thin&type=uicon)
+
+## Cookie
+
+Per risultare a norma di legge il sito deve prevedere un banner di gestione dei cookie. Ad oggi si è scelto di usare un servizio di terze parti chiamato Cookiebot, la guida alla configurazione su Wordpress del servizio è a questo [link](https://support.cookiebot.com/hc/en-us/articles/360003784174-Installing-Cookiebot-CMP-on-WordPress)
