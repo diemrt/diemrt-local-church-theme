@@ -18,7 +18,13 @@
             'menu' => 'header-menu',
             'container' => '',
             'theme_location' => 'header-menu',
-            'items_wrap' => '<nav id="archive-menu" class="menu-content hidden" style="display: none; opacity: 0;">%3$s</nav>'
+            'items_wrap' => '<nav id="archive-menu" class="menu-content hidden" style="display: none; opacity: 0;">
+            %3$s
+            <div class="menu-divider"></div>
+            <a target="_blank" href="https://www.instagram.com/evangelicibergamo_/" class="menu-link">Instagram</a>
+            <a target="_blank" href="https://www.facebook.com/ChiesaCristianaEvangelicaADIBergamo" class="menu-link">Facebook</a>
+            <a target="_blank" href="https://www.youtube.com/@evangelicibergamo7019" class="menu-link">YouTube</a>
+            </nav>'
         )
     );
     ?>
