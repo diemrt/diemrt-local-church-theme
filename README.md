@@ -10,6 +10,8 @@ Per configurare il tema, bisognerà importare l'intera cartella di questo proget
 
 > Laddove non fosse possibile accedere alla cartella da remoto, è possibile creare uno zip del tema e, una volta configurato wordpress, caricarlo nell'apposita sezione **Aspetto>Aggiungi nuovo tema>Carica tema**
 
+> Nel caso in cui ci siano dei problemi di accesso alla cartella tramite Docker Desktop, è possibile copiare il tema tramite il comando `docker cp .\diemrt-local-church-theme\ diemrt-local-church-theme-wordpress-1:/var/www/html/wp-content/themes`
+
 ### Altre configurazioni del tema custom
 
 Ricordarsi di configurare e verificare i seguenti punti
