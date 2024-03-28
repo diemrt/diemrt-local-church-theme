@@ -15,7 +15,8 @@ Per configurare il tema, bisognerà importare l'intera cartella di questo proget
 Ricordarsi di configurare e verificare i seguenti punti
 
 - Controllare che titolo e motto siano configurati nella sezione **Impostazioni>Generali**
-- Verificare di aver inserito tutte le pagine minime al funzionamento, specialmente la pagina Home.
+- Che tutti i file multimediali siano stati caricati (NB: Attivare il plugin per il supporto dei file SVG)
+- Verificare di aver inserito tutte le pagine minime al funzionamento, specialmente la pagina Home
 - Verificare che la tua homepage sia settata su "Home" nella sezione **Impostazioni>Lettura>Una pagina statica>Homepage**
 - Nella sezione **Aspetto>Menu** configurare i seguenti menu:
   - creare un menù "main", controllando che ci sia il check sul flag **Header Menu** e sul flag **Footer Menu**, e inserisci tutte le pagine da elencare nell'ordine corretto.
