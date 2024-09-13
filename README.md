@@ -45,7 +45,7 @@ Questa struttura presenta una serie di cartelle e file fondamentali per il corre
 
 ## Backup
 
-## Limitazioni sul caricamento dei file
+### Limitazioni sul caricamento dei file
 
 Prima di procedere con il backup, assicurarsi che il servizio di hosting abbia abilitato la possibilità di caricare file più grandi di 2MB. Nel caso in cui si abbia accesso ai file di configurazione di wordpress, modificare quanto segue
 
@@ -58,7 +58,7 @@ Prima di procedere con il backup, assicurarsi che il servizio di hosting abbia a
     php_value max_execution_time 300
     php_value max_input_time 300
    ```
-2. Modifica il file **wp-config.php**, aggiunti quanto segue in fondo al file:
+2. Altrimenti modifica il file **wp-config.php**, aggiunti quanto segue in fondo al file:
    
    ```
     @ini_set( 'upload_max_filesize' , '128M' );
@@ -67,6 +67,22 @@ Prima di procedere con il backup, assicurarsi che il servizio di hosting abbia a
     @ini_set( 'max_execution_time', '300' );
     @ini_set( 'max_input_time', '300' );
    ```
+
+### Pagina 404 dopo un restore
+
+Se la richiesta di una pagina specifica ritorna un Error 404 è possibile che il file **.htaccess** sia bloccato e non sia stato possibile applicare i permalink correttamente. Ricordarsi di aggiungere il seguente codice in tal caso:
+
+```
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+```
 
 ## Icone
 
