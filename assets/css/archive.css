@@ -2577,7 +2577,7 @@ blockquote {
 
 .header-section {
     z-index: 9999;
-    background-image: url("https://evangelicibergamo.com/wp-content/uploads/2024/09/chiesa-cover-reduced-e1725715520832.jpg");
+    background-image: url("/wp-content/uploads/2024/09/chiesa-cover-reduced-e1725715520832.jpg");
     background-position: 50% 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2681,7 +2681,7 @@ blockquote {
 }
 
 .community-section {
-    background-image: linear-gradient(rgba(55, 67, 92, .5), rgba(55, 67, 92, .5)), url("https://evangelicibergamo.com/wp-content/uploads/2024/09/MG_0036-scaled.jpg");
+    background-image: linear-gradient(rgba(55, 67, 92, .5), rgba(55, 67, 92, .5)), url("/wp-content/uploads/2024/09/MG_0036-scaled.jpg");
     background-position: 0 0, 50% 100%;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
