@@ -2412,6 +2412,7 @@ blockquote {
 
 .hero-navigation-link {
     color: #0f4c81;
+    background-color: rgba(244, 250, 255, .8);
     letter-spacing: -.01em;
     border-radius: 30px;
     margin-left: -.9em;
@@ -2424,7 +2425,7 @@ blockquote {
 }
 
 .hero-navigation-link:hover {
-    background-color: rgba(244, 250, 255, .6);
+    background-color: rgba(244, 250, 255);
 }
 
 .container {
@@ -2576,7 +2577,7 @@ blockquote {
 
 .header-section {
     z-index: 9999;
-    background-image: url("https://assets-global.website-files.com/5ecb81f357d94bdba23ac508/5ecb8b599359c2115b45ce4a_bg%20hero.jpg");
+    background-image: url("https://evangelicibergamo.com/wp-content/uploads/2024/09/chiesa-cover-reduced-e1725715520832.jpg");
     background-position: 50% 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2680,7 +2681,7 @@ blockquote {
 }
 
 .community-section {
-    background-image: linear-gradient(rgba(55, 67, 92, .5), rgba(55, 67, 92, .5)), url("https://assets-global.website-files.com/5ecb81f357d94bdba23ac508/61d2fe8f6060600e3cc13af7_austin-kehmeier-lyiKExA4zQA-unsplash%201.jpg");
+    background-image: linear-gradient(rgba(55, 67, 92, .5), rgba(55, 67, 92, .5)), url("https://evangelicibergamo.com/wp-content/uploads/2024/09/MG_0036-scaled.jpg");
     background-position: 0 0, 50% 100%;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
